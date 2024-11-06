@@ -95,9 +95,15 @@
             <p><b>Supervisor:</b> Prof. Lei Tian, Boston University</p>
             <div class="bullet-list">
                 <ul>
-                    <li>Developed an MLP model to predict microscopy images under different optical conditions.</li>
-                    <li>Utilized Neural Fields to create a continuous field of light source coordinates.</li>
-                    <li>Optimized model performance with perceptual loss and mean squared error.</li>
+                    <li>Developed a Multilayer Perceptron (MLP) model to predict microscopy images of a sample under various
+ unobserved optical conditions by learning from a limited set of available images taken under different
+ optical conditions (light source coordinates).</li>
+                    <li>Utilized Neural Fields to construct a continuous field of the light source coordinates on the sample,
+ enabling the generation of images from new lighting conditions by interpolating across the pixel
+ coordinates and light source coordinates.</li>
+                    <li>Optimized model performance using a combined loss function of perceptual loss for local similarity and
+ mean squared error for overall image quality.</li>
+                    <li>Reduced the number of required sample images while maintaining the quality of reconstructed images.</li>
                 </ul>
             </div>
         </div>
@@ -107,8 +113,11 @@
             <p><b>Supervisor:</b> Prof. Lei Tian, Boston University</p>
             <div class="bullet-list">
                 <ul>
-                    <li>Developed a Neural Fields image reconstruction network using CNN as encoder and MLP as decoder.</li>
-                    <li>Experimented with various skip-connection configurations for better reconstruction.</li>
+                    <li>Contributed to the development of a Neural Fields image reconstruction network, utilizing a
+ Convolutional Neural Network (CNN) as the encoder and a Multi-Layer Perceptron (MLP) as the
+ decoder to predict interpolating pixel values.</li>
+                    <li>Conducted experiments with various skip-connection configurations to determine the optimal setup for
+ enhanced image reconstruction.</li>
                 </ul>
             </div>
         </div>
@@ -118,8 +127,11 @@
             <p><b>Supervisor:</b> Prof. Fei Chen, Southern University of Science and Technology</p>
             <div class="bullet-list">
                 <ul>
-                    <li>Extracted speech-related EEG data and developed a novel classification approach.</li>
-                    <li>Improved classification accuracy between vowel sounds /ü/ and /u/ by 22.9%.</li>
+                    <li>Extracted speech-related EEG data from multiple subjects using Emotiv EEG headsets.</li>
+                    <li>Developed a novel approach for classifying Mandarin vowels in speech EEG by integrating Riemannian
+ manifold features with a Deep Convolutional Neural Network (ConvNet) classifier.</li>
+                    <li>Achieved a breakthrough in vowel classification improving the distinction between /¨ u/ and /u/ by 22.9%,
+ and surpassed existing benchmarks in speech modality classification accuracy by 11.2%.</li>
                 </ul>
             </div>
         </div>
@@ -129,8 +141,12 @@
             <p><b>Supervisor:</b> Prof. Xinrong Chen, Fudan University</p>
             <div class="bullet-list">
                 <ul>
-                    <li>Proposed and implemented SleepGNet, improving accuracy and reducing training times.</li>
-                    <li>Combined Bi-RNN with a Graph Convolutional Network (GCN) layer for faster convergence.</li>
+                    <li>Proposed and implemented the model SleepGNet, achieving a sleep stage classification accuracy that
+ surpassed previous benchmarks on the same datasets by 0.6% and reduced training times.</li>
+                    <li>Utilized the Short-Time Fourier Transform (STFT) to extract time-frequency features, and employed a
+ fully-connected layer as a filter-bank to enhance feature extraction.</li>
+                    <li>Combined a Bidirectional Recurrent Neural Network (Bi-RNN) with a Graph Convolutional Network
+ (GCN) layer to accelerate model convergence</li>
                 </ul>
             </div>
         </div>
@@ -143,8 +159,12 @@
             <h3>Trip Advisor Website Based on LLM (Oct. 2023 - Dec. 2023)</h3>
             <div class="bullet-list">
                 <ul>
-                    <li>Designed a chatbot using Langchain and OpenAI API for personalized travel planning.</li>
-                    <li>Created an interactive front-end using React.js and integrated Google Maps API.</li>
+                    <li>Designed a chatbot that used the Langchain package in Python and the OpenAI API to provide
+ personalized travel planning experiences.</li>
+                    <li>Developed an interactive front-end web page using React.js to display site recommendations from the
+ ChatGPT on a map, integrated with the Google Maps API.</li>
+                    <li>Enhanced the reliability of the system by utilizing APIs from travel websites to provide accurate and
+ current information, thereby mitigating issues with inaccuracies in LLM-generated content.</li>
                 </ul>
             </div>
         </div>
@@ -153,7 +173,10 @@
             <h3>Speaker Identification Based on Acoustic Features (May 2022 - Jun. 2022)</h3>
             <div class="bullet-list">
                 <ul>
-                    <li>Extracted acoustic features using LPCC and MFCC, achieving over 90% accuracy.</li>
+                    <li> Extracted acoustic features from speech signal datasets, focusing on Linear Prediction Cepstrum
+ Coefficients (LPCC) and Mel Frequency Cepstrum Coefficients (MFCC).</li>
+                    <li>Used Learning Vector Quantization (LVQ) to accurately categorize and identify speakers in the datasets
+ with an accuracy higher than 90%.</li>
                 </ul>
             </div>
         </div>
@@ -162,7 +185,11 @@
             <h3>Image Stitching in Weak Light Environments for Wide-Angle Surveillance (May 2022 - Jun. 2022)</h3>
             <div class="bullet-list">
                 <ul>
-                    <li>Developed SIFT algorithms to stitch multiple images for panoramic views in low-light settings.</li>
+                    <li>Used multiple image processing algorithms such as CLAHE (Constraint Local Adaptive Histogram
+ Equalization) to enhance weak-light images in Python.</li>
+                    <li>Developed and implemented Scale Invariant Feature Transform (SIFT) algorithms to stitch multiple
+ images into panoramic views, crucial for wide-angle surveillance tasks in low light environment (like
+ underwater)where comprehensive visual coverage is required.</li>
                 </ul>
             </div>
         </div>
@@ -171,7 +198,9 @@
             <h3>Real-Time Vocoder Simulation (Nov. 2021 - Dec. 2021)</h3>
             <div class="bullet-list">
                 <ul>
-                    <li>Simulated vocoder on Nvidia Jetson AGX Xavier to transform analog sound into digital signals.</li>
+                    <li>Implemented a program to transform analog sound waves into digital signals in specific frequency
+ distributions that mimick the natural sound processing functions of the human cochlea.</li>
+                    <li>Simulated and optimized the vocoder on an Nvidia Jetson AGX Xavier.</li>
                 </ul>
             </div>
         </div>
@@ -193,8 +222,10 @@
             <p>Intern Algorithm Engineer, Shenzhen, China</p>
             <div class="bullet-list">
                 <ul>
-                    <li>Developed a dual-camera calibration program for security checkpoint camera alignment.</li>
-                    <li>Designed a stereo calibration evaluation algorithm using video-based feature comparisons.</li>
+                    <li>Developed and implemented a dual-camera calibration program in Python for camera alignment and
+ synchronization in a real-world security checkpoint setting.</li>
+                    <li> Designed a video-based stereo calibration effectiveness evaluation algorithm by comparing expected
+ feature coordinates (e.g., corners of detected human heads) across two camera views .</li>
                 </ul>
             </div>
         </div>
