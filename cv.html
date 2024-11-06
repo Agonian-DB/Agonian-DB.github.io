@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wenyuan Cui's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+            color: #333;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        p, ul {
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .sub-title {
+            font-weight: bold;
+        }
+        .skills p {
+            margin: 0;
+        }
+        .projects, .research-experience {
+            padding-left: 20px;
+        }
+        .projects ul, .research-experience ul {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Wenyuan Cui</h1>
+    <p class="contact-info">Email: <a href="mailto:wycui@bu.edu">wycui@bu.edu</a> | Mobile: +1-857-340-8576</p>
+
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li><span class="sub-title">Boston University</span> (Sept. 2023 – Present)<br>Master of Science in Electrical and Computer Engineering; GPA: 3.67, Boston, MA</li>
+            <li><span class="sub-title">Southern University of Science and Technology</span> (Sept. 2019 – July 2023)<br>Bachelor of Engineering in Information Engineering; GPA: 3.42 (84/100), Shenzhen, China</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Publications</h2>
+        <ul>
+            <li>W. Cui, X. Wang, M. Li, S. H. Pun, and F. Chen, “A Study of Deep Learning Based Classification of Mandarin Vowels Using Spoken Speech EEG Signals,” <i>2023 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)</i>.</li>
+            <li>Cui, W.Y., Qian, W.C., and Chen, X.R., “SleepGNet: Automatic Sleep Staging Model Based on Graph Convolutional Network,” <i>2024 Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC)</i>, accepted.</li>
+        </ul>
+    </div>
+
+    <div class="section research-experience">
+        <h2>Research Experience</h2>
+
+        <h3>MLP Application in Reconstruction of Refractive Index Images of Cells (Apr. 2024 – Aug. 2024)</h3>
+        <p><b>Supervisor:</b> Prof. Lei Tian, Boston University</p>
+        <ul>
+            <li>Developed an MLP model to predict microscopy images under different optical conditions.</li>
+            <li>Utilized Neural Fields to create a continuous field of light source coordinates.</li>
+            <li>Optimized model performance with perceptual loss and mean squared error.</li>
+        </ul>
+
+        <h3>Neural Phase Retrieval High Resolution Image Reconstruction (Feb. 2024 – Apr. 2024)</h3>
+        <p><b>Supervisor:</b> Prof. Lei Tian, Boston University</p>
+        <ul>
+            <li>Developed a Neural Fields image reconstruction network using CNN as encoder and MLP as decoder.</li>
+            <li>Experimented with various skip-connection configurations for better reconstruction.</li>
+        </ul>
+
+        <h3>Mandarin Vowels and Speech Modalities Classification Using EEG (Mar. 2022 – Sept. 2023)</h3>
+        <p><b>Supervisor:</b> Prof. Fei Chen, Southern University of Science and Technology</p>
+        <ul>
+            <li>Extracted speech-related EEG data and developed a novel classification approach.</li>
+            <li>Improved classification accuracy between vowel sounds /ü/ and /u/ by 22.9%.</li>
+        </ul>
+
+        <h3>Sleep Stage Classification Based on EEG Using Deep Learning (Jan. 2022 – Aug. 2022)</h3>
+        <p><b>Supervisor:</b> Prof. Xinrong Chen, Fudan University</p>
+        <ul>
+            <li>Proposed and implemented SleepGNet, improving accuracy and reducing training times.</li>
+            <li>Combined Bi-RNN with a Graph Convolutional Network (GCN) layer for faster convergence.</li>
+        </ul>
+    </div>
+
+    <div class="section projects">
+        <h2>Projects</h2>
+
+        <h3>Trip Advisor Website Based on LLM (Oct. 2023 - Dec. 2023)</h3>
+        <ul>
+            <li>Designed a chatbot using Langchain and OpenAI API for personalized travel planning.</li>
+            <li>Created an interactive front-end using React.js and integrated Google Maps API.</li>
+        </ul>
+
+        <h3>Speaker Identification Based on Acoustic Features (May 2022 - Jun. 2022)</h3>
+        <ul>
+            <li>Extracted acoustic features using LPCC and MFCC, achieving over 90% accuracy.</li>
+        </ul>
+
+        <h3>Image Stitching in Weak Light Environments for Wide-Angle Surveillance (May 2022 - Jun. 2022)</h3>
+        <ul>
+            <li>Developed SIFT algorithms to stitch multiple images for panoramic views in low-light settings.</li>
+        </ul>
+
+        <h3>Real-Time Vocoder Simulation (Nov. 2021 - Dec. 2021)</h3>
+        <ul>
+            <li>Simulated vocoder on Nvidia Jetson AGX Xavier to transform analog sound into digital signals.</li>
+        </ul>
+
+        <h3>Face Tracking Drone (Nov. 2021 - Dec. 2021)</h3>
+        <ul>
+            <li>Trained face recognition models to enable autonomous following of moving humans using DJ Tello drone.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Internship Experience</h2>
+        <h3>Reconova Technology Co., LTD (June 2022 – August 2022)</h3>
+        <p>Intern Algorithm Engineer, Shenzhen, China</p>
+        <ul>
+            <li>Developed a dual-camera calibration program for security checkpoint camera alignment.</li>
+            <li>Designed a stereo calibration evaluation algorithm using video-based feature comparisons.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> Python, Java, C++, Matlab, VHDL, Javascript, SQL, CSS</p>
+        <p><strong>Developer Tools:</strong> Linux, Git, Jetbrains, MySQL, React</p>
+        <p><strong>Coursework:</strong> Object-Oriented Programming, Biomedical Engineering, Data Structures, Computer Vision, AI, Digital Signal Processing</p>
+    </div>
+
+</body>
+</html>
